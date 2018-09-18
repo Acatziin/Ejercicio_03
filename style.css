@@ -1,0 +1,56 @@
+
+  .container{
+    display: block;
+  }
+
+ header{
+  display: flex; 
+  background: grey;  
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding-left: 50px;
+  padding-right: 20px;
+  }
+
+  .main-body{
+    display: inline-flex;
+    margin: 5px;
+    color: black;
+    text-align: justify;
+    height: 100%;
+    
+  }
+
+  nav {
+    margin: 5px;
+    padding: 10 px;
+    background: beige;
+    /* text-align: center; */
+    width: 50%;
+    line-height: 1.5rem;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+  }
+
+  section{
+    display: flex;
+    padding: 5px;
+  }
+
+  section img{
+    height: 200px;
+    border: 2px rgb(47, 105, 143) solid;
+  }
+  .main-text{
+    display: block;
+    padding: 20px;
+  }
+
+  footer{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background: rgb(47, 105, 143);
+    color: white;
+  }
