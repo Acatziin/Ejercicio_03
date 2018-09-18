@@ -49,9 +49,11 @@
   }
 
   footer{
+    display: flex;
     margin: 5px;
-    padding: 10px;
-    text-align: center;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
     background: rgb(47, 105, 143);
     color: white;
   }
