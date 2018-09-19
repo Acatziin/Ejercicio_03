@@ -1,9 +1,15 @@
+/* *{
+  border:1px solid red;
+} */
 
-  .container{
-    display: block;
+body{
+    background-image: url("https://s3.amazonaws.com/playbackmediatest/previews/2016/09/22025608/Refracted_Light_Still_2_prod.jpg");
+}
+.container{
+  display: block;
   }
 
- header{
+header{
   display: flex; 
   background: grey;  
   color: white;
@@ -12,26 +18,42 @@
   margin: 10px;
   padding-left: 50px;
   padding-right: 20px;
+  box-shadow: 5px 5px 15px #222; 
   }
 
+  h1, li{
+    text-shadow: 2px 2px 10px #222;
+  }
+  
   .main-body{
     display: inline-flex;
-    margin: 5px;
+    margin: 10px;
     color: black;
     text-align: justify;
     height: 100%;
-    
+    box-shadow: 2px 2px 10px #666;
+    background: rgb(250, 251, 253);
   }
 
   nav {
-    margin: 5px;
+    margin: 15px;
     padding: 10 px;
-    background: beige;
-    /* text-align: center; */
+    background: rgb(199, 219, 238);
     width: 50%;
-    line-height: 1.5rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 360px;
+    line-height: 2rem;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(47, 105, 143);
+    display: table;
+    
+  }
+
+  ul{
+    display: table-cell;
+    vertical-align: middle;
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-size: 20px;
   }
 
   section{
@@ -41,7 +63,7 @@
 
   section img{
     height: 200px;
-    border: 2px rgb(47, 105, 143) solid;
+    box-shadow: 2px 2px 10px #666;
   }
   .main-text{
     display: block;
@@ -50,8 +72,9 @@
 
   footer{
     display: flex;
-    margin: 5px;
-    padding: 15px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     align-items: center;
     justify-content: space-between;
     background: rgb(47, 105, 143);
